@@ -6,6 +6,8 @@ To create scripts using typescript and distribute them as single javascript file
 
 ## Usage
 
+First, fork this repo.
+
 Create your code inside `src` folder. The function `main()` inside `index.ts` is the program entry point.
 
 You can then make use of one of the following scripts.
