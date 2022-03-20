@@ -21,5 +21,5 @@ To target other architectures, you can edit the `package.json` file and add -t f
 ## Important dependencies
 
 This boilerplate uses two very handy packages:
-https://github.com/vercel/ncc
-https://github.com/vercel/pkg
+- https://github.com/vercel/ncc
+- https://github.com/vercel/pkg
