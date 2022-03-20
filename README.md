@@ -8,6 +8,12 @@ To create scripts using typescript and distribute them as single javascript file
 
 Create your code inside `src` folder. The function `main()` inside `index.ts` is the program entry point.
 
+You can then make use of one of the following scripts.
+
+### npm start
+
+Execute your code. Mainly for testing purposes.
+
 ### npm run build
 Bundle your code into a single `index.js` file inside the `/dist` folder. You can execute with `node index.js` assuming you have node installed.
 
