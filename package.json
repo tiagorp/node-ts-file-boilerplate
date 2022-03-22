@@ -6,8 +6,8 @@
   "scripts": {
     "start": "ts-node ./src/index.ts",
     "build": "ncc build ./src/index.ts -o dist --target es2021",
-    "compile": "pkg ./src/index.ts -o ./dist/index",
-    "clean": "rm ./dist/*"
+    "compile": "npm run build && pkg ./dist/index.js -o ./bin/index",
+    "clean": "rm ./dist/* && rm ./bin/*"
   },
   "author": "",
   "license": "ISC",
