@@ -22,7 +22,7 @@ Execute your code. Mainly for testing purposes.
 Bundle your code into a single `index.js` file inside the `/dist` folder. You can execute with `node index.js` assuming you have node installed.
 
 #### npm run compile
-Compile your code to a binary named `index` inside the `/dist` folder. By default, the target architecture will be the one compiling the code.
+Compile your code to a binary named `index` inside the `/bin` folder. By default, the target architecture will be the one compiling the code.
 
 Avoid running this script inside VSCode (or other editors) terminal; instead execute in the os terminal directly to avoid injecting unwanted variables to your node process. More details at https://github.com/vercel/pkg#error-requireinternalmodulestat-is-not-a-function
 
